@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:ital@1&family=Ysabeau+SC:wght@1000&display=swap');
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    width: 66px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: plum;
+}
+
+.row{
+    margin: 10px 0;
+}
+
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 2px;
+    border : 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 300px; /* Set the desired width of the calculator box */
+    margin: 0 auto; /* Center the calculator box on the page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for a 3D effect */
+    border-radius: 10px; 
+    background-color: rgb(244, 206, 213);
+}
